@@ -125,7 +125,7 @@
 
 %--my modification---
 \newcounter{cnt0}
-\newcommand{\makemylabel}[1]{\textcolor{red}{#1)}}
+\newcommand{\makemylabel}[1]{\textcolor{black}{#1)}}
 \newenvironment{rSubsectionPub}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
  {\bf #1} \hfill {#2} % Bold company name and date on the right
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
@@ -144,7 +144,7 @@
 \usepackage{color}
 \newcounter{cnt}  
 %\newcommand{\makeredlabel}[1]{\textcolor{red}{#1.}}
-\newcommand{\makeredlabel}[1]{\textcolor{red}{#1)}}
+\newcommand{\makeredlabel}[1]{\textcolor{black}{#1)}}
 \newenvironment{redlabel}
   {\begin{list}
     {\arabic{cnt}}
